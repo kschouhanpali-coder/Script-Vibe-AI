@@ -22,18 +22,36 @@ Configure your niche, tone, audience, and hook style — then let Google Gemini 
 
 - [Overview](#-overview)
 - [Live Demo](#-live-demo)
+- [Why ScriptVibe AI?](#-why-scriptvibe-ai)
 - [Features](#-features)
 - [Studio Workspace](#️-studio-workspace)
 - [Configuration Parameters](#️-configuration-parameters)
+- [How It Works](#-how-it-works)
 - [Getting Started](#-getting-started)
 - [Tech Stack](#️-tech-stack)
 - [Project Structure](#-project-structure)
+- [Use Cases](#-use-cases)
+- [Roadmap](#️-roadmap)
+- [FAQ](#-faq)
 
 ---
 
 ## 🎯 Overview
 
 **ScriptVibe AI** takes the blank-page problem out of YouTube content creation. Instead of staring at an empty document, describe your video concept, pick a few configuration options, and get a fully structured, ready-to-record script back in seconds — complete with a hook, a teleprompter-ready format, and SEO-optimized metadata. It's built for creators who want to spend less time writing and more time recording.
+
+Writing a good YouTube script isn't just about putting words on a page — it's about nailing the first five seconds, pacing the content for retention, and matching tone to audience. ScriptVibe AI bakes those principles directly into the generation pipeline, so every script it produces is already structured around what actually keeps viewers watching, not just what sounds nice on paper.
+
+---
+
+## 💡 Why ScriptVibe AI?
+
+- **Speed** — go from idea to a full, structured script in seconds instead of hours
+- **Retention-first design** — every script is built around a strong hook and paced for watch time, not just written prose
+- **Fully configurable** — niche, tone, length, audience, hook style, and language are all adjustable per script
+- **Recording-ready output** — the built-in teleprompter means you can go straight from generation to filming
+- **SEO baked in** — auto-generated titles, descriptions, and tags mean you're not starting from scratch on the upload page either
+- **No local setup required** — the hosted version runs entirely in your browser with just a Gemini API key
 
 ---
 
@@ -104,6 +122,17 @@ The **Script Studio Workspace** has four views:
 
 ---
 
+## ⚙️ How It Works
+
+1. **Describe your concept** — enter a short description of what your video is about, in plain language
+2. **Set your configuration** — choose niche, tone, target length, audience, hook style, and language
+3. **Prompt engineering pipeline** — ScriptVibe AI assembles a structured prompt combining your concept and configuration, tuned to produce a retention-optimized script
+4. **Gemini generation** — Google Gemini generates the full script, broken into a hook, body sections, and a closing call-to-action
+5. **Post-processing** — the raw output is formatted into the Studio View, converted into teleprompter-friendly pacing, and used to generate matching video metadata
+6. **Review & record** — switch between Studio, Teleprompter, Raw Markdown, and Metadata views to refine and prepare for filming
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -163,3 +192,45 @@ scriptvibe-ai/
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## 🎥 Use Cases
+
+- **Solo creators** who need to produce scripts quickly without a writing team
+- **Faceless YouTube channels** looking for consistent, structured scripts across a niche
+- **Content agencies** generating first-draft scripts for multiple clients or niches at once
+- **Non-native English speakers** who want polished scripts in their preferred language
+- **New creators** learning what a well-structured, retention-focused script actually looks like
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Support for additional LLM providers beyond Gemini
+- [ ] Script versioning and history so you can compare past generations
+- [ ] Team/collaboration mode for shared script libraries
+- [ ] Direct export to video editing tools
+- [ ] AI-suggested B-roll and visual cues alongside the script
+- [ ] Voice-over generation option for full audio drafts
+
+---
+
+## ❓ FAQ
+
+**Do I need my own Gemini API key?**
+Yes — ScriptVibe AI uses your own Google Gemini API key so you control usage and costs directly. You can get one for free from Google AI Studio.
+
+**Can I edit the generated script?**
+Yes. The Raw Markdown view gives you the full script as plain text, ready to paste into any editor for further refinement.
+
+**Is the teleprompter speed adjustable?**
+The teleprompter is designed for hands-free reading during recording — check the Teleprompter view in the Studio Workspace for available pacing controls.
+
+**Does it support languages other than English?**
+Yes — you can select from multiple languages including Hindi, Spanish, and French when configuring your script.
+
+**Is my API key stored anywhere?**
+Your Gemini API key is used only to make requests during your session — always review the app's current data handling behavior before entering sensitive credentials.
+
+---

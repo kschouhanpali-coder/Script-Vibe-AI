@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" id="top">
 
 # ⚡ ScriptVibe AI
 ### Viral YouTube Script Studio & Teleprompter
@@ -33,6 +33,7 @@ Configure your niche, tone, audience, and hook style — then let Google Gemini 
 - [Use Cases](#-use-cases)
 - [Roadmap](#️-roadmap)
 - [FAQ](#-faq)
+- [Credits & Contact](#-credits--contact)
 
 ---
 
@@ -234,3 +235,41 @@ Yes — you can select from multiple languages including Hindi, Spanish, and Fre
 Your Gemini API key is used only to make requests during your session — always review the app's current data handling behavior before entering sensitive credentials.
 
 ---
+
+## 👤 Credits & Contact
+
+<div align="center">
+
+⚡
+
+### Built by [Your Name](https://github.com/your-username)
+
+*"From idea to ready-to-record script, in seconds."*
+
+</div>
+
+<br/>
+
+> 📬 **Get in touch** — reach out on [GitHub](https://github.com/your-username), [X / Twitter](https://twitter.com/your-username), or via [email](mailto:you@example.com).
+>
+> 🐛 **Found a bug?** [Open an issue](https://github.com/your-username/scriptvibe-ai/issues) and I'll take a look.
+>
+> 💡 **Have an idea for a new hook style or niche?** [Start a discussion](https://github.com/your-username/scriptvibe-ai/discussions) — I'd love to hear it.
+>
+> ⭐ **Found ScriptVibe AI useful?** A star on the repo helps other creators discover it too.
+
+<br/>
+
+ScriptVibe AI is built on **Streamlit**, powered by **Google Gemini**, and driven by a custom prompt engineering pipeline tuned for retention-first script structure.
+
+<div align="center">
+
+<br/>
+
+<sub>⭐ If this helped you go from idea to script faster, consider giving it a star.</sub>
+
+<br/>
+
+**[⬆ Back to top](#top)**
+
+</div>
